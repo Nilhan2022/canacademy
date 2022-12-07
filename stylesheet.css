@@ -1,0 +1,306 @@
+body{
+    font-family: 'Baloo Chettan', cursive;
+    font-size: 24px;
+    color: #191919;
+}
+
+
+/* navbar css */
+.nav-item {
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: rgb(237, 59, 64) !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.dropdown-menu a:hover {
+    color: rgb(237, 59, 64) !important;
+}
+
+.h1 {
+    padding: 40px 90px 20px 90px;
+    font-size: 72px !important;
+    text-align: center;
+    font-weight: 600;
+    /* letter-spacing: 2px; */
+}
+
+
+.italic-head {
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content-one {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 280;
+    padding: 0px 30px;
+    line-height: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button {
+    margin-top: 20px !important;
+    text-transform: uppercase;
+}
+
+.button a {
+    padding: 15px 30px !important; 
+}
+
+.btn-dark:hover {
+    background: #4d4d4d !important;
+}
+
+/* .button:hover {
+    background: #727272 !important;
+} */
+
+.container {
+    text-align: center;
+}
+
+
+.two-column {
+    text-align: center;
+    font-size: 20px;
+    margin: 80px 0px 70px 0px;
+    /* font-family: 'Roboto', sans-serif;
+    font-weight: 400; */
+}
+
+/* second content */
+.content-two {
+    font-weight: 300;
+    text-align: center;
+    font-size: 25px;
+    padding: 70px 200px 70px 200px;
+}
+
+.content-two h1 {
+    font-size: 30px;
+}
+
+.content-two p{
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.content-two img {
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.h1 {
+    font-size: 30px;
+}
+
+/* third content */
+.content-three {
+    text-align: center;
+    font-size: 25px;
+    padding: 90px 200px 90px 200px;
+    background: url('img/team-overlay.jpg');
+    color: white;
+}
+
+.content-three h1 {
+    font-size: 30px;
+}
+
+.content-three a {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content-three p {
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* fourth content */
+.content-four {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 83px;
+    padding-bottom: 70px;
+}
+
+.content-four i:hover {
+    color: #4d4d4d;
+}
+
+.content-four h1 {
+    font-size: 30px;
+}
+
+.content-four p {
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content-four ul {
+    padding-top: 30px;
+}
+
+.fab {
+    letter-spacing: 20px;
+    font-size: 25px;
+}
+
+.fas {
+    letter-spacing: 20px;
+    font-size: 25px;
+}
+
+/* footer */
+
+footer {
+    background-color: #333333;
+    padding: 50px 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.links ul li {
+    display: inline;
+    letter-spacing: 1px;
+    padding: 0px 15px 0px 0px;
+}
+
+.links ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.social a{
+    color: white;
+}
+
+.content-four a {
+    color: #191919;
+}
+
+.links {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.social {
+    color: white;
+    text-align: center;
+}
+
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: white;
+}
+
+.logo-head {
+    font-size:30px;
+}
+
+
+.logo-text-2 {
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+
+
+@media(max-width: 768px) {
+
+    body {
+        text-align: center;
+    }
+
+    .h1,
+    .content-one,
+    .content-two,
+    .content-three,
+    .content-four,
+    .two-column {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    nav a {
+        text-align: center;
+    }
+
+    .links ul li {
+        font-size: 14px;
+        display: block;
+        padding: 10px 0px;
+    }
+
+    .links ul {
+        padding: 0px;
+    }
+
+    .ex {
+        padding-top:45px; 
+    }
+
+    .ex-padding {
+        padding-top: 0px;
+    }
+
+    .h1 {
+        font-size: 30px !important;
+    }
+
+    .content-one {
+        font-size: 22px;
+        font-weight: 300;
+    }
+
+    .button a {
+        font-size: 16px;
+    }
+
+    .content-two p {
+        font-size: 22px;
+    }
+
+    .content-three p {
+        font-size: 22px;
+    }
+
+    .content-four p {
+        font-size: 22px;
+    }
+
+    .links ul li {
+        font-size: 18px;
+    }
+
+    .two-column {
+        
+    }
+
+    /* p {
+        font-size:22px;
+    }
+
+    h1 {
+        font-size: 30px;
+    } */
+
+    
+
+}
